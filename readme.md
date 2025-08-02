@@ -2,25 +2,17 @@
 
 # Django-Vercel-Neon
 
-## Demo
-
-[holytriangle.vercel.app](holytriangle.vercel.app)
-
 ## Description
 
 This is a template repository that helps you to set up your Django+Vecel+Neon project.
 
 ## Usage
-1. Use this repository as a template
-2. Create project in Vercel using your new repository
-3. [Integrate Neon into your new Vercel project]((https://vercel.com/illmilos-projects/~/integrations/neon))
-4. ```bash
-   git clone https://github.com/illmilo/ holytriangle
-   cd holytriangle
-   nano .env
-   ```
-5. Copy-paste Neon environmental variables from your Verel project into `.env` file
-6. Cut `SECRET_KEY` from `settings.py` and paste it in `.env` key `SECRET_KEY`
+1. Create a new GitHub repo with using this repo as a template
+2. Create project on [Vercel](https://vercel.app), link it to your GitHub repo
+3. Add Neon DB as a Storage in your Vercel project
+4. Clone your project & `nano .env`
+5. Copy-paste Neon environmental variables from your Vercel project Settings into `.env` file
+6. Cut `SECRET_KEY` from your own Django project's `settings.py` and paste it in `.env` for `SECRET_KEY`
 7. Additionally, set up admin account with `ADMIN_LOGIN`, `ADMIN_EMAIL`, `ADMIN_PASSWORD`. Otherwise, use default values:
     
     - Login: `admin`
